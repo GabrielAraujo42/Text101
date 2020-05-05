@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e993c5a144a6e44ea6fb59e63c6782c, type: 3}
+  m_Name: B3 - DiamondCorridor
+  m_EditorClassIdentifier: 
+  storyText: "Turn left to a new corridor.\r\n\r\n1- Go forward\r\n2- Check door to
+    the right"
+  nextStates:
+  - {fileID: 11400000, guid: 1331d53f3445e9842b8fc1ea937f15f8, type: 2}
+  - {fileID: 11400000, guid: 5b27d46483fd7a3489f57f4cbf1b3353, type: 2}

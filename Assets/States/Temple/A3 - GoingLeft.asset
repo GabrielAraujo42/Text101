@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e993c5a144a6e44ea6fb59e63c6782c, type: 3}
+  m_Name: A3 - GoingLeft
+  m_EditorClassIdentifier: 
+  storyText: "As you proceed through this path you start to see a faint orange glow
+    coming from a turn at the end of the corridor.\r\n\r\nWith the extra light you
+    take a figurine from the ground, made of some solid material you can't quite identify.
+    It resembles a humanoid creature with a strange shaped head, maybe a god cultured
+    by the temple.\r\n\r\n\"This might be worth something\"\r\n\r\n1- Keep walking\r\n2-
+    Turn back away from the light"
+  nextStates:
+  - {fileID: 11400000, guid: af6b10f5fef68d24a99ede71e2980a28, type: 2}
+  - {fileID: 11400000, guid: b712cb9537cec1740bd8c1a0fb5fc210, type: 2}

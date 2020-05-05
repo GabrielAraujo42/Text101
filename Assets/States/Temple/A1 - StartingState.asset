@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e993c5a144a6e44ea6fb59e63c6782c, type: 3}
+  m_Name: A1 - StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You finally made it. Survived the perils of the forest and found a great
+    temple from an ancient civilization. You imagine countless the riches as you enter
+    the temple.\r\n\r\nYou get your flashlight and walk through a mossy stone corridor,
+    when you see a wall in front of you, the corridor divides into two, you may go
+    right or left.\r\n\n1- Go right\r\n2- Go left"
+  nextStates:
+  - {fileID: 11400000, guid: b712cb9537cec1740bd8c1a0fb5fc210, type: 2}
+  - {fileID: 11400000, guid: 250c0dbabf113f84b968787fe31bfb64, type: 2}

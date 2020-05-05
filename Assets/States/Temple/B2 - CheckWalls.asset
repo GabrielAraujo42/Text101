@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e993c5a144a6e44ea6fb59e63c6782c, type: 3}
+  m_Name: B2 - CheckWalls
+  m_EditorClassIdentifier: 
+  storyText: "Checks walls.\r\n\r\n1- Check the corpse\r\n2- Proceed through the corridor"
+  nextStates:
+  - {fileID: 11400000, guid: b715f9c102d2be141b1ec1bce6b8d88e, type: 2}
+  - {fileID: 11400000, guid: ea2d2df7c57ccc047a04b37fbd2c6435, type: 2}

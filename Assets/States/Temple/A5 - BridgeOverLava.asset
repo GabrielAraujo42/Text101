@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e993c5a144a6e44ea6fb59e63c6782c, type: 3}
+  m_Name: A5 - BridgeOverLava
+  m_EditorClassIdentifier: 
+  storyText: "Cross the bridge and turn right to a blockade.\r\n\r\n1- Force your
+    way through\r\n2- Turn back and go the other way"
+  nextStates:
+  - {fileID: 11400000, guid: 0d64377363eb2ab48b10a955d2268ff4, type: 2}
+  - {fileID: 11400000, guid: b712cb9537cec1740bd8c1a0fb5fc210, type: 2}
